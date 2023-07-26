@@ -1,0 +1,32 @@
+* {
+    box-sizing:border-box;
+}
+
+h1, h2 {
+    text-align: center
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#board > div {
+    border: 2px solid black; 
+    height: 33%;
+    width: 33%;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    text-align:center;
+    margin-top: 2rem;
+
+}
